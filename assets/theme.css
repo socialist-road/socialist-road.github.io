@@ -1,0 +1,168 @@
+/* the only Marxist website with responsive web design */
+
+@media screen and (max-width: 45em) {
+    body {
+        padding: 25px;
+    }
+}
+
+* {
+  font-family: inherit;
+  background-color: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(1em + .1vw);
+}
+
+body {
+  background-color: #252a34;
+  color: #a9a9b3;
+  font-family: sans-serif, Arial, 'Helvetica Neue';
+  line-height: 1.5;
+  max-width: 750px;
+  margin: auto;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.125;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 5% auto;
+}
+
+h2 {
+  font-size: 1.66rem;
+  margin: 5% auto;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+*+* {
+  margin-top: 2.25rem;
+}
+
+p+p {
+  margin-top: .75rem;
+}
+
+li {
+  list-style-type: none;
+  margin: 1%;
+  margin-left: 2%;
+  font-size: 80%;
+}
+
+.sources li {
+  list-style-type: unset;
+  margin: unset;
+  margin-left: unset;
+  font-size: unset;
+}
+
+/* hacky */
+li {
+  a {
+    color: #136968;
+  }
+}
+
+blockquote {
+  background-color: #434851;
+  border-radius: 20px;
+  margin: 2em 0;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+table, td, th {
+  border: 5px solid #343434;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 2.5%;
+}
+
+footer {
+  border-top: 1px solid #F2F2F2;
+  padding: 1rem;
+}
+
+header {
+  border-bottom: 1px solid #F2F2F2;
+  padding: 1rem;
+  display: inline-block;
+  width: 100%;
+}
+
+.nav {
+  background-color: #434851;
+  border-radius: 20px;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.logo {
+  display: inline-block;
+  float: right;
+  width: 25px;
+}
+
+.article {
+  border-bottom: 1px solid #F2F2F2;
+  width: 100%;
+}
+
+.title {
+  font-size: 1.66rem;
+  font-weight: 800;
+  margin-left: 1%;
+}
+
+.subtext {
+  font-style: italic;
+  font-size: 80%;
+  font-weight: 450;
+  margin-left: 1%;
+  margin-bottom: 1.5rem;
+}
+
+.date {
+  font-size: 0.66rem;
+}
+
+.fn {
+  color: #136968;
+  font-size: 75%;
+  text-align: center;
+  position: relative;
+  top: -0.5em;
+}
+
+.author {
+  font-style: italic;
+  margin-top: -0.5rem;
+  margin-bottom: 2px;
+  padding: 0;
+  border: 0;
+  font-size: 70%;
+}
