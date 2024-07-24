@@ -73,13 +73,6 @@ li {
   font-size: unset;
 }
 
-/* hacky */
-li {
-  a {
-    color: #136968;
-  }
-}
-
 blockquote {
   background-color: #434851;
   border-radius: 20px;
@@ -156,6 +149,10 @@ header {
   text-align: center;
   position: relative;
   top: -0.5em;
+}
+
+.cite {
+  color: #136968;
 }
 
 .author {
